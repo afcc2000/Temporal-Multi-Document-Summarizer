@@ -90,6 +90,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-André Felipe Cunha - [LinkedIn Profile](https://www.linkedin.com/) - your.email@example.com
+André Felipe Cunha - [LinkedIn Profile]([https://www.linkedin.com/](https://www.linkedin.com/in/andre-felipe-cunha)) - afcc2000@gmail.com
 
-Project Link: [https://github.com/your-username/temporal-multi-document-summarizer](https://github.com/your-username/temporal-multi-document-summarizer)
+Project Link: [[https://github.com/your-username/temporal-multi-document-summarizer](https://github.com/your-username/temporal-multi-document-summarizer)](https://github.com/afcc2000/Temporal-Multi-Document-Summarizer)
