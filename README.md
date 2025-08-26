@@ -92,4 +92,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 André Felipe Cunha - [LinkedIn Profile]([https://www.linkedin.com/](https://www.linkedin.com/in/andre-felipe-cunha)) - afcc2000@gmail.com
 
-Project Link: [[https://github.com/your-username/temporal-multi-document-summarizer](https://github.com/your-username/temporal-multi-document-summarizer)](https://github.com/afcc2000/Temporal-Multi-Document-Summarizer)
+Project Link:  [https://github.com/afcc2000/Temporal-Multi-Document-Summarizer)](https://www.linkedin.com/in/andre-felipe-cunha)
