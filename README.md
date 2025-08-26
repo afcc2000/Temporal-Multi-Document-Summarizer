@@ -90,6 +90,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-André Felipe Cunha - [LinkedIn Profile]([https://www.linkedin.com/](https://www.linkedin.com/in/andre-felipe-cunha)) - afcc2000@gmail.com
+André Felipe Cunha - [LinkedIn Profile]([https://www.linkedin.com/](https://www.linkedin.com/in/andre-felipe-cunha)- afcc2000@gmail.com
 
 Project Link: https://github.com/afcc2000/Temporal-Multi-Document-Summarizer
