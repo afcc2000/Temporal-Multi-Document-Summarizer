@@ -1,4 +1,4 @@
-#RED-ME PLACEHOLDER (Está em criação e sujeito a mudanças, não está preciso)
+# RED-ME PLACEHOLDER (Está em criação e sujeito a mudanças, não está preciso)
 
 # Temporal-Multi-Document-Summarizer
 An NLP tool for creating chronological summaries from multiple sources, like news articles or historical texts, using temporal annotation (TimeML).
