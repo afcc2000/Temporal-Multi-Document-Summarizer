@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "temporal-multi-doc"
+version = "0.1.0"
+description = "Temporal annotation and (future) multi-doc summarization"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "André Felipe Cunha" }]
+
+# Dependências essenciais do pacote
+dependencies = [
+  "lxml>=4.9,<6"
+]
+
+[project.optional-dependencies]
+
+tei2go = [
+  "numpy<2",
+  "spacy==3.2.6",
+  "en_tei2go @ https://huggingface.co/hugosousa/en_tei2go/resolve/main/en_tei2go-any-py3-none-any.whl"
+]
+
+
+langchain = [
+  "langchain",
+  "openai",
+  "tiktoken"
+]
+
+dev = [
+  "pytest>=7"
+]
+
+[project.scripts]
+temporal-annotator = "temporal_annotator.main:cli"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

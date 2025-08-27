@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignora tudo do VSCode...
+.vscode/*
+
+# ...mas deixa o settings.json versionado
+!.vscode/settings.json

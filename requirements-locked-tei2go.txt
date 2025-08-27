@@ -1,0 +1,4 @@
+numpy<2
+spacy==3.2.6
+lxml>=4.9,<6
+en_tei2go @ https://huggingface.co/hugosousa/en_tei2go/resolve/main/en_tei2go-any-py3-none-any.whl
