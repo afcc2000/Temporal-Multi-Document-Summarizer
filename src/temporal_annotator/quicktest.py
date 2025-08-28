@@ -1,13 +1,17 @@
-import spacy
+# src/temporal_annotator/quicktest.py
+from pathlib import Path
+from annotatorMVP import Tei2goInlineAnnotator
 
-# carregar o modelo TEI2GO (inglês)
-nlp = spacy.load("en_tei2go")
+def main():
+    # calcula o caminho do projeto a partir deste arquivo:
+    project_root = Path(__file__).resolve().parents[2]  # .../Temporal-Multi-Document-Summarizer
+    in_path  = project_root / "data" / "raw" / "EnglishNIVMatthew40_PW.xml"
+    out_path = project_root / "data" / "processed" / "EnglishNIVMatthew40_PW_TEI2GO.xml"
 
-# texto de teste
-text = "On the third day he rose early in the morning. The next day he travelled at 6:00."
-doc = nlp(text)
+    annot = Tei2goInlineAnnotator(xpath=".//verse")  # anota todos os <verse>
+    annot.annotate_file(in_path, out_path)
 
-print("Texto:", text)
-print("Entidades encontradas:")
-for ent in doc.ents:
-    print(ent.text, ent.label_)
+    print(f"✔ anotado: {out_path}")
+
+if __name__ == "__main__":
+    main()
